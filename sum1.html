@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>All CSS Types Demo</title>
+
+<!-- Internal CSS -->
+<style>
+/* Internal CSS */
+.internal {
+  color: darkred;
+  text-align: center;
+}
+
+.internal-p {
+  font-size: 18px;
+  color: navy;
+  margin: 20px;
+}
+
+.internal-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* External CSS (simulated inside same file) */
+.external {
+  color: purple;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.external-p {
+  font-size: 18px;
+  color: #333;
+  margin: 20px;
+}
+
+.external-btn {
+  background-color: #ff0066;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+}
+</style>
+
+</head>
+
+<body style="font-family: Arial; background-color: #f4f4f4;">
+
+<!-- Inline CSS -->
+<h1 style="color: blue; text-align: center;">Inline CSS Example</h1>
+<p style="font-size: 18px; color: green;">
+This paragraph uses Inline CSS.
+</p>
+<button style="background: orange; padding: 10px; border: none;">
+Click Me
+</button>
+
+<hr>
+
+<!-- Internal CSS -->
+<h1 class="internal">Internal CSS Example</h1>
+<p class="internal-p">This paragraph uses Internal CSS.</p>
+<button class="internal-btn">Submit</button>
+
+<hr>
+
+<!-- External CSS (simulated) -->
+<h1 class="external">External CSS Example</h1>
+<p class="external-p">This paragraph uses External CSS.</p>
+<button class="external-btn">Login</button>
+
+</body>
+</html>
